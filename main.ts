@@ -47,7 +47,7 @@ import * as https from 'https';
 					return result;
 				})();
 				console.log(`Latest Available Build: ${build.build}`);
-				if (build.build == currentBuild) {
+				if (build.build <= currentBuild) {
 					console.log(`Latest Build is already downloaded. Skipping ${path}\n`);
 					continue;
 				}
