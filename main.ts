@@ -58,8 +58,8 @@ import * as https from 'https';
 					file.on('finish', () => {
 						file.close();
 						console.log(`Downloaded ${build.downloads.application.name} for ${path}`);
-						fs.renameSync(path + build.downloads.application.name, path + 'paper.jar');
-						console.log(`Replaced paper.jar with ${build.downloads.application.name}`);
+						fs.renameSync(path + build.downloads.application.name, path + project + '.jar');
+						console.log(`Replaced ${project}.jar with ${build.downloads.application.name}`);
 						resolve(true);
 					});
 				}));
