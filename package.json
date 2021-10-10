@@ -1,0 +1,23 @@
+{
+	"name": "paperupdate",
+	"version": "1.0.0",
+	"description": "",
+	"main": "main.js",
+	"scripts": {
+		"build": "npm i && tsc main.ts"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/BlackAsLight/PaperUpdate.git"
+	},
+	"author": "BlackAsLight",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/BlackAsLight/PaperUpdate/issues"
+	},
+	"homepage": "https://github.com/BlackAsLight/PaperUpdate#readme",
+	"devDependencies": {
+		"ts-node": "^10.2.1",
+		"typescript": "^4.4.3"
+	}
+}
