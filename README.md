@@ -9,6 +9,8 @@ i.e. `paper.jar`, `waterfall.jar`, etc
 
 ### Setup
 
+Follow the instructions below to build the project yourself or just download the latest `main.js` from the releases panel and jump down to the Run section.
+
 1. Download this program onto the computer you wish to use it on.
 2. Open up a terminal and direct yourself to the downloaded folder's contents using `cd`.
 3. Type `npm run build` to install the necessary dependencies and compile the program.
